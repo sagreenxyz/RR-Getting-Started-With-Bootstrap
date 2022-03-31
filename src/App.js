@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav'
 function App() {
   return (
     <div className="App">
-      <Nav activeKey="/home">
+      <Nav fill activeKey="/home">
         <Nav.Item>
           <Nav.Link href="/home">Home</Nav.Link>
         </Nav.Item>
