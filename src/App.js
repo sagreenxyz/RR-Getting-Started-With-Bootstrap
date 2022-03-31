@@ -35,6 +35,17 @@ function App() {
       </div>
 
       <Form>
+        <Form.Group>
+          <Form.Label>Form Dropdown with favorite movies</Form.Label>
+          <Form.Control as="select">
+            <option>Inception</option>
+            <option>Forrest Gump</option>
+            <option>Shawshank Redemption</option>
+            <option>Spiderman: Into the Spiderverse</option>
+            <option>Avengers: Endgame</option>
+          </Form.Control>
+        </Form.Group>
+
         <Form.Group controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
           <Form.Control type="email" placeholder="Enter email" />
